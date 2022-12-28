@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     background-image:linear-gradient(#c2e59c,#64b3f4) ;
+}
+.upload-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.upload-box input{
+    margin: 0;
+}
+.wrap.active .upload-box{
+    border: none;
+}
+.wrap{
+    background-color: rgb(250, 250, 250);
+    width: 500px;
+    height: 400px;
+    padding-top: 40px;
+    padding-left: 40px;
+    border-radius: 30px;
+
+}
+.row-size{
+    margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+   margin-right: 40px;
+   
+}
+
+/* .column-width{
+    padding: 5px;
+}
+.column-Height{
+    padding: 3px;
+   
+} */
+.row-size #Width{
+width: 120px;    
+}
+
+.row-size #Height{
+    width: 120px;
+} 
+.wrap .upload-box{
+    height: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px dashed brown;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.upload-box p{
+    font-size: medium;
+    margin-top: 20px;
+}
+.row-checkboxes{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    margin-top: 10px;
+}
+.column-ratios{
+    margin: 0;
+}
+.download-btn{
+ margin-top: 10px;
+    width: 90%;
+ height: 40px;
+ cursor: pointer;
+}
+.download-btn:hover{
+    background-color: rgb(232, 90, 90);
+    color: white;
+    
+}
+
+.column-width input:focus{
+    padding: 0 14px;
+    border: 2px solid blueviolet;
+}
